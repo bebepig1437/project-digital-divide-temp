@@ -12,9 +12,9 @@ export default function Footer({ showContact = true }) {
           <div className="container-content grid gap-10 lg:grid-cols-2 lg:items-start">
             <Reveal>
               <span className="eyebrow">Get in touch</span>
-              <h2 className="mt-4 text-3xl sm:text-4xl">Let's get more people connected</h2>
+              <h2 className="mt-4 text-3xl sm:text-4xl">Join us or reach out</h2>
               <p className="mt-4 max-w-md text-lg text-muted">
-                Want to donate old hardware, host a digital skills workshop, or partner on a project? Drop us a note and we'll get back to you.
+                Want to donate spare gear, host a workshop in your town, or partner with us? Send a note and we'll reply shortly
               </p>
               <a href={`mailto:${site.email}`} className="mt-6 inline-flex items-center gap-2 font-medium text-navy hover:text-teal">
                 <Mail size={18} /> {site.email}
